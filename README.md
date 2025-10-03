@@ -112,7 +112,8 @@ python clients/consumer.py
 ### NIFI:
 http://localhost:8080/nifi/
 
-Поток данных NIFI -- in Kafka (topic module_6) -- out Kafka (topic module_6_out)
+Поток данных NIFI: 
+GenerateFlowFile -- PublishKafka (топик module_06_out) -- ConsumeKafka (топик module_06_out)
 Nifi принтскрины подтверждения в папке [nifi](nifi)
 * Создан процессор GenerateFlowFile
 * Создан процессор PublishKafka (топик module_06_out)
