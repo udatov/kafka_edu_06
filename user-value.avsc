@@ -1,0 +1,11 @@
+{"schema":
+  "{
+    "type": "record",
+    "name": "User",
+    "fields": [
+      {"name": "id", "type": "int"},
+      {"name": "username", "type": "string"},
+      {"name": "registered", "type": "boolean"}
+    ]
+  }"
+}
